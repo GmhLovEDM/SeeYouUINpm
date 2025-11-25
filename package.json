@@ -1,0 +1,12 @@
+{
+  "name": "see-u-ui",
+  "version": "0.1.605",
+  "description": "test",
+  "license": "MIT",
+  "author": "GmhLovEDM",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
