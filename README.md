@@ -12,7 +12,7 @@
   <a href="https://twitter.com/GmhLovEDM"><img src="https://img.shields.io/badge/Twitter-GmhLovEDM-blue" alt="discord chat"></a>
 </p>
 
-# SeeYouUI
+# SeeYouUI NPM
 
 >  这是 SeeYouUI 的 NPM 包，SeeYouUI源码请查看 [SeeYouUI](https://github.com/GmhLovEDM/SeeYouUI)
 
