@@ -83,7 +83,7 @@
  * @property {Boolean}												isDisabled		是否禁用状态
  * @property {Number}												radius			圆角（默认4px）
  *
- * @example <u--formlabelPosition="left" :model="model1" :rules="rules" ref="form1"></u--form>
+ * @example <SeeButton title="主要按钮" type="primary" isRipple />
  */
 import { ref, computed, nextTick, getCurrentInstance } from "vue";
 import type { TouchEvent, ClientRectData, RippleItem } from "./type";

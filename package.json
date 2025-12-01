@@ -5,8 +5,15 @@
   "license": "MIT",
   "author": "GmhLovEDM",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "dist/types/index.d.ts",
   "scripts": {
-    "test": "test"
+    "build:types": "vue-tsc --declaration --emitDeclarationOnly --outDir dist/types"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.28",
+    "typescript": "^5.9.3",
+    "vue": "3",
+    "vue-tsc": "^3.1.5"
   }
 }

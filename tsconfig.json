@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist/types",
+    "allowJs": true,
+    "skipLibCheck": true,
+
+    "types": ["@dcloudio/types"],
+
+    "target": "ES2015",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*", "index.ts"]
+}
