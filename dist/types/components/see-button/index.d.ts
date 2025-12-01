@@ -1,2 +1,3 @@
-import SeeButton from "./index.vue";
+import { default as SeeButton } from './index.vue';
+
 export default SeeButton;

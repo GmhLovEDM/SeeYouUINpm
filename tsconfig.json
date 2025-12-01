@@ -13,5 +13,5 @@
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "node"
   },
-  "include": ["src/**/*", "index.ts"]
+  "include": ["components", "index.ts"]
 }
