@@ -36,11 +36,6 @@
 </template>
 
 <script lang="ts">
-export default {
-  name: "SeeText",
-};
-</script>
-<script lang="ts" setup>
 /**
  * Text 文本
  * @description 此组件基于uniapp官方button，进行二次封装
@@ -57,6 +52,11 @@ export default {
  *
  * @example
  */
+export default {
+  name: "SeeText",
+};
+</script>
+<script lang="ts" setup>
 import { computed, nextTick } from "vue";
 import SeeLink from "../SeeLink/index.vue";
 import { formatDate } from "@/utils/hooks/useDateFormat";

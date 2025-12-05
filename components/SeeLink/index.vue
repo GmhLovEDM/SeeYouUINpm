@@ -5,11 +5,6 @@
 </template>
 
 <script lang="ts">
-export default {
-  name: "SeeLink",
-};
-</script>
-<script lang="ts" setup>
 /**
  * Link 链接
  * @description 此组件基于uniapp官方button，进行二次封装
@@ -24,6 +19,11 @@ export default {
  *
  * @example
  */
+export default {
+  name: "SeeLink",
+};
+</script>
+<script lang="ts" setup>
 import { nextTick, computed } from "vue";
 
 /** ---------- props ---------- */
