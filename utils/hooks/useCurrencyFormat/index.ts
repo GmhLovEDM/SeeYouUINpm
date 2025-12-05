@@ -1,9 +1,8 @@
-import {
-  computed,
-  toValue,
-  type ComputedRef,
-  type MaybeRefOrGetter,
-} from "vue";
+import { computed, type ComputedRef, type MaybeRefOrGetter } from "vue";
+
+function toValueCompat(v: any) {
+  return typeof v === "function" ? v() : v;
+}
 
 type NumberInput = MaybeRefOrGetter<number | string | null | undefined>;
 
@@ -77,7 +76,7 @@ export function useCurrencyFormat(
   const { placeholder = "-" } = options;
 
   return computed(() => {
-    const val = toValue(amount);
+    const val = toValueCompat(amount);
 
     if (val === null || val === undefined || val === "") {
       return placeholder;
