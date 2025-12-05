@@ -1,11 +1,9 @@
 import { SeeButton } from './components/SeeButton/index';
 import { SeeText } from './components/SeeText/index';
 import { SeeLink } from './components/SeeLink/index';
-import * as hooks from "./utils/hooks/index";
 export { SeeButton, SeeText, SeeLink };
 export * from './utils/hooks/index';
 declare const _default: {
-    install: (app: any) => void;
     SeeButton: {
         new (...args: any[]): import('vue').CreateComponentPublicInstanceWithMixins<Readonly<{
             title?: string;
@@ -193,5 +191,5 @@ declare const _default: {
         isLine: boolean;
         lineColor: string;
     }, {}, {}, {}, string, import('vue').ComponentProvideOptions, true, {}, SVGTextElement>;
-} & typeof hooks;
+};
 export default _default;
