@@ -5,7 +5,6 @@ import { SeeLink } from "./components/SeeLink/index";
 
 // 支持按需引入
 export { SeeButton, SeeText, SeeLink };
-export * from "./utils/hooks/index";
 
 // 支持默认全量引入
 export default {

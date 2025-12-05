@@ -18,5 +18,5 @@
       "@/*": ["*"]
     }
   },
-  "include": ["components", "index.ts", "utils"]
+  "include": ["components", "index.ts"]
 }
