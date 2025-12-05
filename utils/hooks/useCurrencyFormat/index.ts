@@ -7,7 +7,7 @@ import {
 
 type NumberInput = MaybeRefOrGetter<number | string | null | undefined>;
 
-interface CurrencyOptions {
+export interface CurrencyOptions {
   decimals?: number; // 保留几位小数，默认 2
   symbol?: string; // 货币符号
   placeholder?: string; // 占位符
