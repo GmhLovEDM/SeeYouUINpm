@@ -11,7 +11,12 @@
     "target": "ES2015",
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "include": ["components", "index.ts"]
 }
