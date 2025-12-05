@@ -7,9 +7,9 @@ type __VLS_Props = {
     isLine?: boolean;
     lineColor?: string;
 };
-declare const __VLS_export: import("vue").DefineComponent<__VLS_Props, {}, {}, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {} & {
+declare const _default: import('vue').DefineComponent<__VLS_Props, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {} & {
     onClick: (...args: never) => any;
-}, string, import("vue").PublicProps, Readonly<__VLS_Props> & Readonly<{
+}, string, import('vue').PublicProps, Readonly<__VLS_Props> & Readonly<{
     onOnClick?: (...args: never) => any;
 }>, {
     type: "info" | "primary" | "error" | "warning" | "success";
@@ -18,6 +18,5 @@ declare const __VLS_export: import("vue").DefineComponent<__VLS_Props, {}, {}, {
     href: string;
     isLine: boolean;
     lineColor: string;
-}, {}, {}, {}, string, import("vue").ComponentProvideOptions, true, {}, any>;
-declare const _default: typeof __VLS_export;
+}, {}, {}, {}, string, import('vue').ComponentProvideOptions, true, {}, SVGTextElement>;
 export default _default;

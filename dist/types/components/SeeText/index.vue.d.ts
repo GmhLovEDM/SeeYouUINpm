@@ -9,9 +9,9 @@ type __VLS_Props = {
     date?: string | number | Date;
     dateFormat?: string;
 };
-declare const __VLS_export: import("vue").DefineComponent<__VLS_Props, {}, {}, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {} & {
+declare const _default: import('vue').DefineComponent<__VLS_Props, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {} & {
     onClick: (...args: never) => any;
-}, string, import("vue").PublicProps, Readonly<__VLS_Props> & Readonly<{
+}, string, import('vue').PublicProps, Readonly<__VLS_Props> & Readonly<{
     onOnClick?: (...args: never) => any;
 }>, {
     type: "info" | "primary" | "error" | "warning" | "success";
@@ -22,6 +22,5 @@ declare const __VLS_export: import("vue").DefineComponent<__VLS_Props, {}, {}, {
     mode: "text" | "link" | "phone" | "date" | "timeago" | "price";
     phoneNumber: string;
     dateFormat: string;
-}, {}, {}, {}, string, import("vue").ComponentProvideOptions, true, {}, any>;
-declare const _default: typeof __VLS_export;
+}, {}, {}, {}, string, import('vue').ComponentProvideOptions, true, {}, SVGViewElement>;
 export default _default;

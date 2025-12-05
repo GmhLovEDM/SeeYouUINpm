@@ -1,3 +1,3 @@
-import SeeLink from "./index.vue";
+import { default as SeeLink } from './index.vue';
 export { SeeLink };
 export default SeeLink;
