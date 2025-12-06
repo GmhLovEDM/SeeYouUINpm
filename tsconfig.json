@@ -5,18 +5,16 @@
     "outDir": "dist/",
     "allowJs": true,
     "skipLibCheck": true,
-
     "types": ["@dcloudio/types"],
-
-    "target": "ES2015",
+    "target": "ESNext",
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "node",
-
     "baseUrl": ".",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["src/*"]
     }
   },
-  "include": ["components", "index.ts"]
+  // 只包含 src
+  "include": ["src"]
 }

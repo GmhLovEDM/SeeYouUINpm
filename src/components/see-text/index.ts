@@ -1,4 +1,4 @@
-import SeeText from "./index.vue";
+import SeeText from "./see-text.vue";
 
 export { SeeText };
 

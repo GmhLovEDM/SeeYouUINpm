@@ -1,4 +1,4 @@
-import SeeButton from "./index.vue";
+import SeeButton from "./see-button.vue";
 
 export { SeeButton };
 

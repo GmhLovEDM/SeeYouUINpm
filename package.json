@@ -1,14 +1,27 @@
 {
   "name": "see-u-ui",
-  "version": "1.0.010-alpha2",
+  "version": "1.0.010",
   "description": "SeeYouUI，是全面兼容nvue的uni-app生态框架",
   "license": "MIT",
   "author": "GmhLovEDM",
-  "main": "./dist/index.umd.js",
-  "module": "./dist/index.es.js",
-  "types": "./dist/types/index.d.ts",
+  "type": "module", 
+  "files": [
+    "src",
+    "dist"
+  ],
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    },
+    "./*": "./*"
+  },
   "scripts": {
-    "build": "vite build"
+    "build": "vue-tsc --noEmit && vite build"
   },
   "devDependencies": {
     "@dcloudio/types": "^3.4.28",

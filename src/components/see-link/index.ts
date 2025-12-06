@@ -1,4 +1,4 @@
-import SeeLink from "./index.vue";
+import SeeLink from "./see-link.vue";
 
 export { SeeLink };
 
